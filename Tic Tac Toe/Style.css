@@ -1,0 +1,17 @@
+#tic-tac-toe {
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
